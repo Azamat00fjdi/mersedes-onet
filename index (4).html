@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алматы қаласы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9f5db; /* ашық жасыл фон */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fdfde3; /* өте ашық сары */
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        header {
+            background-color: #2e7d32; /* қою жасыл */
+            color: #fffde7; /* ашық сары */
+            text-align: center;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        nav {
+            background-color: #388e3c;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        nav a {
+            color: #fffde7;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #2e7d32;
+            border-bottom: 3px solid #cddc39; /* жасыл-сары сызық */
+            padding-bottom: 5px;
+        }
+
+        .place, .event, .culture {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+            transition: transform 0.2s ease;
+        }
+
+        .place:hover, .event:hover, .culture:hover {
+            transform: scale(1.02);
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: #fffde7;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Алматы қаласы</h1>
+            <p>Қазақстанның ең әсем мегаполисі</p>
+        </header>
+
+        <nav>
+            <a href="#places">Әдемі жерлер</a>
+            <a href="#events">Қызықты оқиғалар</a>
+            <a href="#culture">Мәдениет және өнер</a>
+        </nav>
+
+        <section id="places">
+            <h2>Туристік орындар:</h2>
+            <div class="place">
+                <h3>Медеу мұз айдыны</h3>
+                <p>Әлемдегі ең биік мұз айдындарының бірі. Мұнда спорт жарыстары мен көңілді демалыс өткізуге болады.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Medeu_Skating_Rink.jpg" alt="Медеу мұз айдыны">
+            </div>
+            <div class="place">
+                <h3>Көк-Төбе</h3>
+                <p>Қаланың ең әдемі көрінісін тамашалауға болатын орын. Мұнда саябақ, дәмханалар және аттракциондар бар.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Kok_Tobe_Almaty.jpg" alt="Көк-Төбе">
+            </div>
+            <div class="place">
+                <h3>Үлкен Алматы көлі</h3>
+                <p>Тау бөктеріндегі керемет көгілдір көл. Табиғатты сүйетін туристердің сүйікті орны.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Big_Almaty_Lake.jpg" alt="Үлкен Алматы көлі">
+            </div>
+        </section>
+
+        <section id="events">
+            <h2>Қызықты оқиғалар</h2>
+            <div class="event">
+                <h3>Алматы марафоны</h3>
+                <p>Жыл сайын өтетін халықаралық спорт шарасы. Әлемнің түкпір-түкпірінен мыңдаған қатысушы келеді.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Almaty_Marathon.jpg" alt="Алматы марафоны">
+            </div>
+            <div class="event">
+                <h3>Jazz фестивалі</h3>
+                <p>Әлемге танымал музыканттар қатысатын мәдени іс-шара. Жанды әуен мен шығармашылық атмосфера сыйлайды.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Jazz_Festival.jpg" alt="Jazz фестивалі">
+            </div>
+            <div class="event">
+                <h3>Кинофестивальдер</h3>
+                <p>Алматыда түрлі кино фестивальдер ұйымдастырылады. Бұл шаралар жаңа фильмдер мен жас режиссерлерді қолдайды.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Film_Festival.jpg" alt="Кинофестиваль">
+            </div>
+        </section>
+
+        <!-- Мәдениет және өнер бөлімі -->
+        <section id="culture">
+            <h2>Мәдениет және өнер</h2>
+
+            <div class="culture">
+                <h3>Театрлар мен мұражайлар</h3>
+                <p>Алматы — Қазақстанның мәдени орталығы. Мұнда Абай атындағы Қазақ мемлекеттік академиялық опера және балет театры, 
+                М.Әуезов атындағы драма театры, сондай-ақ Ә.Қастеев атындағы өнер мұражайы сияқты әйгілі мәдени орындар орналасқан. 
+                Бұл мекемелер елдің көркем және тарихи мұрасын сақтап, келушілерге ұсынады.</p>
+            </div>
+
+            <div class="culture">
+                <h3>Фестивалдер мен мәдени іс-шаралар</h3>
+                <p>Қалада жыл бойы түрлі мәдени фестивальдер, концерттер және көрмелер өткізіледі. 
+                Солардың қатарында «Star of Asia» музыкалық фестивалі, 
+                ұлттық қолөнер жәрмеңкелері мен театр апталықтары бар. 
+                Бұл шаралар шығармашылықты дамытып, өнер сүйер қауымды біріктіреді.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>01.10.2025. Kadyr Azamat</p>
+        </footer>
+    </div>
+</body>
+</html>
